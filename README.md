@@ -225,11 +225,14 @@ with the actual directories and filenames used in this repository.
 ```text
 Modul-Plug-and-Play/
 ├── README.md
-├── firmware/
-│   ├── controller/
-│   └── sensor_modules/
+├── lib/
+├── test/
+├── src/
+│   ├── main.cpp
+│   └── writeEEPROM.cpp
 ├── hardware/
 │   ├── controller/
+│   ├── actuator_modules/
 │   └── sensor_modules/
 ├── docs/
 │   ├── system_architecture.md
@@ -237,6 +240,7 @@ Modul-Plug-and-Play/
 │   └── user_guide.md
 ├── images/
 │   ├── controller_prototype.jpg
+│   ├── actuator_module.jpg
 │   └── sensor_module.jpg
 └── LICENSE
 ```
@@ -296,12 +300,12 @@ claims of completed functionality.
 
 - [x] Establish the controller and sensor-module concept.
 - [x] Define the initial hardware architecture.
-- [ ] Finalize the 10-pin connector specification.
-- [ ] Complete and test EEPROM-based sensor identification.
-- [ ] Implement sensor initialization and measurement routines.
-- [ ] Develop the local logic configuration interface.
-- [ ] Validate relay control and monitoring.
-- [ ] Test compatibility across supported sensor modules.
+- [x] Finalize the 10-pin connector specification.
+- [x] Complete and test EEPROM-based sensor identification.
+- [x] Implement sensor initialization and measurement routines.
+- [x] Develop the local logic configuration interface.
+- [x] Validate relay control and monitoring.
+- [x] Test compatibility across supported sensor modules.
 - [ ] Document PLC integration and electrical interfaces.
 - [ ] Prepare complete hardware diagrams and assembly instructions.
 
